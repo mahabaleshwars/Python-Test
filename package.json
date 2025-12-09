@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/mahabaleshwars/Python-Test/issues"
   },
-  "homepage": "https://github.com/mahabaleshwars/Python-Test#readme"
+  "homepage": "https://github.com/mahabaleshwars/Python-Test#readme",
+  "dependencies": {
+    "@actions/glob": "github:priyagupta108/glob#main"
+  }
 }
