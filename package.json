@@ -1,0 +1,34 @@
+{
+  "name": "python-test",
+  "version": "1.0.0",
+  "description": "A sample Python project for testing github.com/actions/setup-python scenarios",
+  "main": "index.js",
+  "scripts": {
+    "test": "pytest",
+    "test:coverage": "pytest --cov=python_test --cov-report=xml --cov-report=html",
+    "install:python": "pip install -r requirements.txt",
+    "install:dev": "pip install -e .[dev]",
+    "lint": "echo 'Linting Python code...'",
+    "setup": "python setup.py install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahabaleshwars/Python-Test.git"
+  },
+  "keywords": [
+    "python",
+    "testing",
+    "setup-python",
+    "github-actions",
+    "sample-project"
+  ],
+  "author": "Python-Test",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mahabaleshwars/Python-Test/issues"
+  },
+  "homepage": "https://github.com/mahabaleshwars/Python-Test#readme",
+  "dependencies": {
+    "@actions/glob": "github:priyagupta108/glob#main"
+  }
+}

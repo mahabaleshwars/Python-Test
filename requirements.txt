@@ -1,0 +1,6 @@
+# Python Test Dependencies
+# This file is for testing setup-python scenarios
+
+# Testing dependencies
+pytest>=7.0.0
+pytest-cov>=4.0.0
