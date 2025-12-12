@@ -5,6 +5,7 @@ A sample Python project for testing [github.com/actions/setup-python](https://gi
 ## Overview
 
 This project is designed to test various scenarios with the GitHub Actions `setup-python` action. It includes:
+
 - A Python package with sample modules
 - A `package.json` file for Node.js integration testing
 - Standard Python project configuration files (`setup.py`, `requirements.txt`)
